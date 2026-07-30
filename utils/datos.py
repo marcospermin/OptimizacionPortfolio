@@ -1,9 +1,7 @@
 import numpy as np
 
-# DATOS REALES DEL PAPER (Bolsa de Comercio de Santiago)
 N_ACTIVOS = 6
 
-# datos de la tabla 1 del paper
 RETORNOS_ESPERADOS = np.array([
     0.0002,   # COPEC
     0.0004,   # CTC-A
@@ -13,7 +11,6 @@ RETORNOS_ESPERADOS = np.array([
     0.0001    # ENTEL
 ])
 
-# datos de la tabla 2 del paper
 MATRIZ_COVARIANZAS = np.array([
     # COPEC    CTC-A     CAP     COLBUN  ENDESA    ENTEL
     [0.00038, 0.00020, 0.00017, 0.00014, 0.00019, 0.00017], # COPEC

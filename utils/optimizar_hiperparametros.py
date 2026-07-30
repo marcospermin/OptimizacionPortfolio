@@ -8,7 +8,7 @@ ABC_DIR = os.path.join(BASE_DIR, 'ABC')
 sys.path.append(BASE_DIR)
 sys.path.append(ABC_DIR)
 
-from ABC.datos_mercado import RETORNOS_ESPERADOS, MATRIZ_COVARIANZAS, N_ACTIVOS
+from utils.datos import RETORNOS_ESPERADOS, MATRIZ_COVARIANZAS, N_ACTIVOS
 from _comparaciones.func.optimizador_nsga2 import OptimizadorNSGAII
 
 def main():
